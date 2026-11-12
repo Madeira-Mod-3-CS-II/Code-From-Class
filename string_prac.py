@@ -74,3 +74,19 @@ def strip_list(list_items):
     return list_items
 
 print(strip_list(lunch_list))
+
+# Slicing
+# Purpose is to get substrings or subsequences
+# string_var[start : stop : skip]
+# start is inclusive
+# stop is exclusive
+# skip, how many steps to take
+print(wish)
+print(wish[2:6])    # Start at index 2 and end at index 5
+print(wish[:6])     # Start at index 0 and end at index 5
+print(wish[2:])     # Start at index 2 and go to the end
+print("\n")
+print(wish[:8:3])   # Start at index 0 and end with index 7 and takes every
+                    # 3rd character
+
+print(wish[::-1])   # Reverses the string
